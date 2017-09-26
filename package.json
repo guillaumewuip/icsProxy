@@ -3,12 +3,12 @@
   "version": "0.0.1",
   "description": "An ics proxy to add basic authentication when services doesn't allow it",
   "main": "main.js",
+  "engines": {
+    "node": "6.5.0"
+  },
   "scripts": {
     "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "engines": {
-    "node": "6.5.0"
   },
   "author": "Guillaume Wuip <guillaume@wuips.com> (http://guillaume.wuips.com)",
   "license": "wtfpl",
